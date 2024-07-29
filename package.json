@@ -1,0 +1,17 @@
+{
+	"name": "seat-parser",
+	"module": "index.ts",
+	"type": "module",
+	"devDependencies": {
+		"@biomejs/biome": "1.7.0",
+		"@types/bun": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	},
+	"dependencies": {
+		"node-html-parser": "^6.1.13"
+	},
+	"trustedDependencies": ["@biomejs/biome"]
+}
+
